@@ -23,7 +23,7 @@ public class TitleBar extends javax.swing.JPanel {
         addMouseListener(drag);
         addMouseMotionListener(drag);
         
-        icon = new JLabel(new ImageIcon("media/logo.png"));
+        icon = new JLabel(new ImageIcon("media/images/logo.png"));
 
         gbc.gridx = 0;
         gbc.gridy = 0;

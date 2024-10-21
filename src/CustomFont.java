@@ -10,14 +10,14 @@ public class CustomFont {
 
     static {
         try {
-           interMedium = Font.createFont(Font.TRUETYPE_FONT, new File("media/Inter_Medium.ttf"));
+           interMedium = Font.createFont(Font.TRUETYPE_FONT, new File("media/fonts/Inter_Medium.ttf"));
         } catch (FontFormatException | IOException e) {
             e.printStackTrace();
             interMedium = new Font("Arial", Font.PLAIN, 18);
         }
 
         try {
-            interBold = Font.createFont(Font.TRUETYPE_FONT, new File("media/Inter_Bold.ttf"));
+            interBold = Font.createFont(Font.TRUETYPE_FONT, new File("media/fonts/Inter_Bold.ttf"));
          } catch (FontFormatException | IOException e) {
             e.printStackTrace();
             interBold = new Font("Arial", Font.PLAIN, 18);

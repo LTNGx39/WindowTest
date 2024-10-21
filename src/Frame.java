@@ -10,7 +10,7 @@ public class Frame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setContentPane(new Panel(this));
         setBackground(Palette.ALPHA);
-        ImageIcon icon = new ImageIcon("media/logox64.png");
+        ImageIcon icon = new ImageIcon("media/images/logox64.png");
         Image imageIcon = icon.getImage();
         setIconImage(imageIcon);
         setLayout(new GridBagLayout());
